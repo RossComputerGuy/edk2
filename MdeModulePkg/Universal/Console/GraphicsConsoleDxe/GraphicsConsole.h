@@ -33,8 +33,10 @@ extern EFI_COMPONENT_NAME_PROTOCOL   gGraphicsConsoleComponentName;
 extern EFI_COMPONENT_NAME2_PROTOCOL  gGraphicsConsoleComponentName2;
 extern EFI_DRIVER_BINDING_PROTOCOL   gGraphicsConsoleDriverBinding;
 extern EFI_NARROW_GLYPH              gUsStdNarrowGlyphData[];
+extern EFI_WIDE_GLYPH                gUsStdWideGlyphData[];
 
 extern UINT32  mNarrowFontSize;
+extern UINT32  mWideFontSize;
 
 typedef union {
   EFI_NARROW_GLYPH    NarrowGlyph;

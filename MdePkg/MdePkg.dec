@@ -2475,7 +2475,7 @@
 
   ## Default current ISO 639-2 language: English & French.
   # @Prompt Default Value of LangCodes Variable.
-  gEfiMdePkgTokenSpaceGuid.PcdUefiVariableDefaultLangCodes|"engfraengfra"|VOID*|0x0000001c
+  gEfiMdePkgTokenSpaceGuid.PcdUefiVariableDefaultLangCodes|"engfraengfrajpn"|VOID*|0x0000001c
 
   ## Default current ISO 639-2 language: English.
   # @Prompt Default Value of Lang Variable.
@@ -2483,7 +2483,7 @@
 
   ## Default platform supported RFC 4646 languages: (American) English & French.
   # @Prompt Default Value of PlatformLangCodes Variable.
-  gEfiMdePkgTokenSpaceGuid.PcdUefiVariableDefaultPlatformLangCodes|"en;fr;en-US;fr-FR"|VOID*|0x0000001e
+  gEfiMdePkgTokenSpaceGuid.PcdUefiVariableDefaultPlatformLangCodes|"en;fr;en-US;fr-FR;ja-JP"|VOID*|0x0000001e
 
   ## Default current RFC 4646 language: (American) English.
   # @Prompt Default Value of PlatformLang Variable.

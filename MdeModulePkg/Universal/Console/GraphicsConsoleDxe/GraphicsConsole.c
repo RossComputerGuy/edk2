@@ -2081,6 +2081,11 @@ RegisterFontPackage (
   //    |     gUsStdNarrowGlyphData      |
   //    |                                |
   //    +--------------------------------+
+  //    |--------------------------------| <-- Location
+  //    |                                |
+  //    |     gUsStdWideGlyphData        |
+  //    |                                |
+  //    +--------------------------------+
 
   PackageLength = sizeof (EFI_HII_SIMPLE_FONT_PACKAGE_HDR) + mNarrowFontSize + 4;
   Package       = AllocateZeroPool (PackageLength);
@@ -2091,9 +2096,13 @@ RegisterFontPackage (
   SimplifiedFont->Header.Length        = (UINT32)(PackageLength - 4);
   SimplifiedFont->Header.Type          = EFI_HII_PACKAGE_SIMPLE_FONTS;
   SimplifiedFont->NumberOfNarrowGlyphs = (UINT16)(mNarrowFontSize / sizeof (EFI_NARROW_GLYPH));
+  SimplifiedFont->NumberOfWideGlyphs   = (UINT16)(mWideFontSize / sizeof (EFI_WIDE_GLYPH));
 
   Location = (UINT8 *)(&SimplifiedFont->NumberOfWideGlyphs + 1);
   CopyMem (Location, gUsStdNarrowGlyphData, mNarrowFontSize);
+
+  Location = (UINT8 *)(&SimplifiedFont->NumberOfWideGlyphs + 1 + mNarrowFontSize);
+  CopyMem (Location, gUsStdWideGlyphData, mWideFontSize);
 
   //
   // Add this simplified font package to a package list then install it.
