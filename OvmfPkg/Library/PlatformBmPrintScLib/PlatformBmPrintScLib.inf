@@ -11,7 +11,7 @@
 # library instance into BdsDxe via PlatformBootManagerLib (which BdsDxe depends
 # upon), then catch only those status codes that BdsDxe reports (which happens
 # via UefiBootManagerLib). Status codes reported by other modules (such as
-# UiApp), via UefiBootManagerLib or otherwise, are meant to be ignored.
+# LegacyUiApp), via UefiBootManagerLib or otherwise, are meant to be ignored.
 #
 # Copyright (C) 2019, Red Hat, Inc.
 #

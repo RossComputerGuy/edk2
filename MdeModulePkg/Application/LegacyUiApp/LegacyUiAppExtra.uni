@@ -1,5 +1,5 @@
 // /** @file
-// UiApp Localized Strings and Content
+// LegacyUiApp Localized Strings and Content
 //
 // Copyright (c) 2015, Intel Corporation. All rights reserved.<BR>
 //
@@ -7,6 +7,6 @@
 //
 // **/
 
-#string STR_PROPERTIES_MODULE_NAME #language en-US "UiApp module"
+#string STR_PROPERTIES_MODULE_NAME #language en-US "LegacyUiApp module"
 
 

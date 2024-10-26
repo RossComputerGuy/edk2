@@ -352,7 +352,7 @@
 
   MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   MdeModulePkg/Application/BootManagerMenuApp/BootManagerMenuApp.inf
-  MdeModulePkg/Application/UiApp/UiApp.inf{
+  MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf{
     <LibraryClasses>
       NULL|MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf
       NULL|MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib.inf

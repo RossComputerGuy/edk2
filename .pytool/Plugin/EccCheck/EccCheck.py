@@ -158,7 +158,7 @@ class EccCheck(ICiBuildPlugin):
         # is always at the end of the line.  Examples:
         #
         #   M       MdeModulePkg/Application/CapsuleApp/CapsuleApp.h
-        #   M       MdeModulePkg/Application/UiApp/FrontPage.h
+        #   M       MdeModulePkg/Application/LegacyUiApp/FrontPage.h
         #
         params = "diff --output={} --diff-filter=dr --name-status origin/master HEAD".format(temp_diff_output)
         RunCmd("git", params)

@@ -537,7 +537,7 @@
   MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   MdeModulePkg/Logo/LogoDxe.inf
   MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
-  MdeModulePkg/Application/UiApp/UiApp.inf {
+  MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf {
     <LibraryClasses>
       NULL|MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf
       NULL|MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf

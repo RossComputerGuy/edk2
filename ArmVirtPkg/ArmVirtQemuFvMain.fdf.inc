@@ -115,7 +115,7 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf
   INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
-  INF MdeModulePkg/Application/UiApp/UiApp.inf
+  INF MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf
   INF OvmfPkg/QemuKernelLoaderFsDxe/QemuKernelLoaderFsDxe.inf
 
   #

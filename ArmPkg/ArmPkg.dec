@@ -218,7 +218,7 @@
   gArmTokenSpaceGuid.PcdArmDmaDeviceOffset|0x0|UINT64|0x0000044
 
   #
-  # Boot the Uefi Shell instead of UiApp when no valid boot option is found.
+  # Boot the Uefi Shell instead of LegacyUiApp when no valid boot option is found.
   # This is useful in CI environment so that startup.nsh can be launched.
   # The default value is FALSE.
   #

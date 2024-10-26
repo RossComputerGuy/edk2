@@ -285,7 +285,7 @@ InitializeFrontPage (
                                   &mFrontPageGuid,
                                   gFrontPagePrivate.DriverHandle,
                                   FrontPageVfrBin,
-                                  UiAppStrings,
+                                  LegacyUiAppStrings,
                                   NULL
                                   );
   ASSERT (gFrontPagePrivate.HiiHandle != NULL);

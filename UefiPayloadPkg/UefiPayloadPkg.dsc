@@ -758,7 +758,7 @@
 !if $(BOOTSPLASH_IMAGE)
   MdeModulePkg/Logo/LogoDxe.inf
 !endif
-  MdeModulePkg/Application/UiApp/UiApp.inf {
+  MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf {
     <LibraryClasses>
       NULL|MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf
       NULL|MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf

@@ -511,7 +511,7 @@
   #
 !include NetworkPkg/NetworkPcds.dsc.inc
 
-  # Point to the MdeModulePkg/Application/UiApp/UiApp.inf
+  # Point to the MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf
   gEfiMdeModulePkgTokenSpaceGuid.PcdBootManagerMenuFile|{ 0x21, 0xaa, 0x2c, 0x46, 0x14, 0x76, 0x03, 0x45, 0x83, 0x6e, 0x8a, 0xb6, 0xf4, 0x66, 0x23, 0x31 }
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdConInConnectOnDemand|FALSE
@@ -671,7 +671,7 @@
   MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   MdeModulePkg/Logo/LogoDxe.inf
-  MdeModulePkg/Application/UiApp/UiApp.inf {
+  MdeModulePkg/Application/LegacyUiApp/LegacyUiApp.inf {
     <LibraryClasses>
       NULL|MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf
       NULL|MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf

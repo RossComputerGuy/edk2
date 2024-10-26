@@ -1135,7 +1135,7 @@ PlatformBootManagerUnableToBoot (
 
   //
   // Boot the 'UEFI Shell'. If the Pcd is not set, the UEFI Shell is not
-  // an active boot option and must be manually selected through UiApp
+  // an active boot option and must be manually selected through LegacyUiApp
   // (at least during the fist boot).
   //
   if (FixedPcdGetBool (PcdUefiShellDefaultBootEnable)) {
